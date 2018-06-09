@@ -312,7 +312,7 @@ while($row = mysqli_fetch_array($result))
           </a>
         </li>
        <li>
-          <a href="../../../system/core/admin/AttendenceReport.php">
+          <a href="../../../system/core/admin/AttendanceReport.php">
             <i class="glyphicon glyphicon-check"></i> <span>Attendance</span>
             
           </a>

@@ -196,16 +196,14 @@
                      $grade11 =   "select * FROM `marklist` WHERE  grade = '1' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade1 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade11)){
-				 while($row = mysqli_fetch_array($run)){
-   
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				  $row = mysqli_fetch_array($run);
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
               <span class="info-box-number">1</span>
-
               <div class="progress">
                 <div class="progress-bar" style="width: 50%"></div>
               </div>
@@ -228,11 +226,11 @@
                      $grade22 =   "select * FROM `marklist` WHERE  grade = '2' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade1 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade22)){
-				 while($row = mysqli_fetch_array($run)){
+				 $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -260,11 +258,10 @@
                      $grade33 =   "select * FROM `marklist` WHERE  grade = '3' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade3 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade33)){
-				 while($row = mysqli_fetch_array($run)){
-   
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 $row = mysqli_fetch_array($run);
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -292,11 +289,11 @@
                      $grade44 =   "select * FROM `marklist` WHERE  grade = '4' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade4 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade44)){
-				 while($row = mysqli_fetch_array($run)){
+				  $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade'];   }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -333,11 +330,11 @@
                      $grade55 =   "select * FROM `marklist` WHERE  grade = '5' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade5 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade55)){
-				 while($row = mysqli_fetch_array($run)){
+				  $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade'];  }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -365,11 +362,11 @@
                      $grade66 =   "select * FROM `marklist` WHERE  grade = '6' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade6 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade66)){
-				 while($row = mysqli_fetch_array($run)){
+				  $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -397,11 +394,11 @@
                      $grade77 =   "select * FROM `marklist` WHERE  grade = '7' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade7 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade77)){
-				 while($row = mysqli_fetch_array($run)){
+				 $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -429,11 +426,11 @@
                      $grade88 =   "select * FROM `marklist` WHERE  grade = '8' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade8 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade88)){
-				 while($row = mysqli_fetch_array($run)){
+				 $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -471,11 +468,11 @@
                      $grade99 =   "select * FROM `marklist` WHERE  grade = '9' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade9 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade99)){
-				 while($row = mysqli_fetch_array($run)){
+				 $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade'];}}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -503,11 +500,11 @@
                      $grade1010 =   "select * FROM `marklist` WHERE  grade = '10' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade10 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade1010)){
-				 while($row = mysqli_fetch_array($run)){
+				 $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade'];  }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -535,11 +532,11 @@
                      $grade1111 =   "select * FROM `marklist` WHERE  grade = '11' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade11 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade1111)){
-				 while($row = mysqli_fetch_array($run)){
+				 $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade']; }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>
@@ -567,11 +564,11 @@
                      $grade1212 =   "select * FROM `marklist` WHERE  grade = '12' " ;
 		  
 		  ?>
-   <span class="info-box-icon"><a href="../../core/admin/gradem.php?grade=<?php 
+   <span class="info-box-icon"><a href="<?php if($r_grade12 == 0){ echo "#"; }else{ ?>../../core/admin/gradem.php?grade=<?php 
                if($run = mysqli_query($con,$grade1212)){
-				 while($row = mysqli_fetch_array($run)){
+				  $row = mysqli_fetch_array($run);
    
-   echo $row['grade']; ?>" <?php }}?>  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
+				 echo $row['grade'];  }}?>"  class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-th"> </i></a></span>
 				
             <div class="info-box-content">
               <span class="info-box-text">Grade</span>

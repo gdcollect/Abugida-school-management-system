@@ -141,13 +141,13 @@
             <div class="box-body">
               <!-- the events -->
               <div id="external-events">
- 		<button type="button" onclick="window.print()" class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print/Export PDF</button>
- 		  <a href="../../system/core/AttendenceReport.php"  class="btn bg-primary btn-flat  "><i class="glyphicon glyphicon-repeat"></i>&nbsp; Back </a> 
- 		  <a href="../../system/core/do_attendence.php"  class="btn bg-purple btn-flat  "><i class="glyphicon glyphicon-refresh"></i>&nbsp; &nbsp; Refrash</a> 
+ 		<button type="button" onclick="window.print()" class="btn bg-navy btn-flat  "><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print/Export</button>
+ 		  <a href="../../core/admin/AttendanceReport.php"  class="btn bg-primary btn-flat  "><i class="glyphicon glyphicon-repeat"></i>&nbsp; Back </a> 
+ 		  <a href="../../core/admin/do_attendance.php"  class="btn bg-purple btn-flat  "><i class="glyphicon glyphicon-refresh"></i>&nbsp; &nbsp; Refrash</a> 
 		  <br>
 <br>
 
-			    <form action="AttendenceReport.php" method="post" role="form">
+			    <form action="AttendanceReport.php" method="post" role="form">
 
    <div class="row">
            <div class="col-lg-6">

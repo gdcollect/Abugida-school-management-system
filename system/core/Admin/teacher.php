@@ -43,8 +43,8 @@
             <div class="box-body">
               <!-- the events -->
               <div id="external-events">
- 		  <a href="../../core/admin/teacher_entry.php"  class="btn bg-purple btn-flat  "><i class="glyphicon glyphicon-plus"> </i>Register </a> 
- 		  <a href="../../core/admin/print.php"  class="btn bg-navy btn-flat  "target="_blank"><i class="glyphicon glyphicon-print"> </i>Print/Export PDF</a> 
+ 		  <a href="../../core/admin/teacher_entry.php"  class="btn bg-purple btn-flat  "><i class="glyphicon glyphicon-plus"> </i> Register </a> 
+ 		  <a href="../../core/admin/print.php"  class="btn bg-navy btn-flat  "target="_blank"><i class="glyphicon glyphicon-print"> </i> Print/Export </a> 
 </div></div>
 </div></div>
 </div></div>
